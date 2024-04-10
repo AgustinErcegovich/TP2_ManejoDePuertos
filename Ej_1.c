@@ -13,5 +13,5 @@ int main {
             int Valor = PTB -> PDIR & (1 << i);
             PTA -> PSOR |= (Valor u << i);
         }
-    }
+    } 
 }
